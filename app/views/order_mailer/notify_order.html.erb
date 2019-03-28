@@ -1,0 +1,12 @@
+Rails EShop<br/>
+<br/>
+ORDER CONFIRMATION<br/>
+<br/>
+Name: <%= @name %><br/>
+Address: <%= @addr %><br/>
+Items:<br/>
+<% @products.each do |product| %>
+  <%= product.name %><br/>
+<% end %>
+
+
